@@ -13,26 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
+title: ECE 2260
+tagline: Course webpage for ECE 2260 at Weber State University
+description: Course webpage for ECE 2260 at Weber State University
+author: Erc Gibbons
+course_documents_url: &course_docs_url https://github.com/wsu-ece2260/course-documents
+# baseurl: "/ece2260" # the subpath of your site, e.g. /blog
+# url: "https://kevinl.info" # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.10.1
+# remote_theme: just-the-docs/just-the-docs@v0.10.1
+# nav_external_url is not supported in v0.10.1, so we need to update the theme
+remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
+  # Course Documents: "https://github.com/wsu-ece2260/course-documents"
+  Eric Gibbons: "https://faculty.weber.edu/ericgibbons"
 footer_content:
+
+# Math settings
+just_the_docs_mathjax: true
 
 # Collections for website data
 collections:
@@ -43,25 +47,25 @@ collections:
 # Default layouts for each collection type
 defaults:
   - scope:
-      path: ''
+      path: ""
       type: staffers
     values:
       layout: staffer
-      height: 300
-      subpath: '/assets/images/'
-      width: 300
+      height: 300px
+      subpath: "/assets/images/"
+      width: 300px
   - scope:
-      path: ''
+      path: ""
       type: modules
     values:
       layout: module
   - scope:
-      path: ''
+      path: ""
       type: schedules
     values:
       layout: schedule
   - scope:
-      path: ''
+      path: ""
       type: announcements
     values:
       layout: announcement
@@ -77,3 +81,9 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
+
+nav_external_links:
+  - title: Course Documents
+    url: *course_docs_url
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false

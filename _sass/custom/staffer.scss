@@ -1,10 +1,11 @@
 .staffer {
   display: flex;
   margin: $sp-4 0;
+  font-size: 16px;
 
   .staffer-image {
     border-radius: 50%;
-    height: 100px;
+    height: 150px;
     margin-right: $sp-4;
     width: auto;
   }
@@ -31,7 +32,10 @@
   }
 
   .staffer-meta {
-    dt, dd, dd + dt {
+
+    dt,
+    dd,
+    dd+dt {
       margin-top: 0;
     }
   }

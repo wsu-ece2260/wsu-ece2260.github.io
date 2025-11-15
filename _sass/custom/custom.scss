@@ -1,15 +1,19 @@
-// Just the Class dependencies
+// ECE 2260 dependencies
 @import 'card';
 
-// Just the Class styles
+// ECE 2260 styles
 @import 'announcement';
 @import 'module';
 @import 'schedule';
 @import 'staffer';
 
 // Overrides
+body {
+  font-size: 16px;
+}
+
 code {
-  font-size: 14px;
+  font-size: 16px;
   padding: 0.2em 0.4em;
   border: none;
 }
@@ -44,8 +48,12 @@ summary {
   }
 
   dd {
-    + dt {
+    +dt {
       margin-top: 1em;
     }
   }
+}
+
+.site-nav .nav-list .nav-list-item a {
+  font-size: 18px;
 }
