@@ -1,3 +1,34 @@
+.module-header {
+  display: grid;
+  grid-template-columns: 10% 60% 15% 15%;
+  font-weight: bold;
+  border-bottom: 2px solid #dee2e6;
+  padding: 0.5rem 1.25rem;
+}
+
+.header-item {
+  padding: 0.5rem;
+}
+
+.module {
+  .module-item {
+    display: grid;
+    grid-template-columns: 10% 60% 15% 15%;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.1rem 0.5rem;
+    align-items: start;
+
+    >div {
+      padding: 0.5rem;
+    }
+
+    >div:nth-child(3),
+    >div:nth-child(4) {
+      text-align: center;
+    }
+  }
+}
+
 .main-content .module,
 .module {
   @extend %card;
@@ -18,81 +49,85 @@
     border-top: $border $border-color;
     display: grid;
     grid-template-columns: max-content 1fr;
-    margin: $sp-2 (-$sp-4);
+    margin: $sp-2 (
+      -$sp-4
+    );
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include mq(lg) {
+    grid-template-columns: 1fr 7fr;
+  }
+
+  %module-item {
+    margin: 0;
+    padding: $sp-2;
+
+    @include mq(sm) {
+      padding: $sp-2 $sp-4;
+    }
+  }
+
+  >dt {
+    @extend %module-item;
+    border-top: $border $border-color;
+    font-weight: normal;
+    text-align: right;
+
+    +dd {
+      border-top: $border $border-color;
+    }
 
     &:first-child {
-      margin-top: 0;
+      border-top: none;
+
+      +dd {
+        border-top: none;
+      }
     }
 
-    &:last-child {
-      margin-bottom: 0;
+    &::after {
+      content: ":";
+    }
+  }
+
+  >dd {
+    @extend %module-item;
+
+    +dd {
+      padding-top: 0;
     }
 
-    @include mq(lg) {
-      grid-template-columns: 1fr 7fr;
-    }
-
-    %module-item {
+    ol,
+    ul,
+    dl {
       margin: 0;
-      padding: $sp-2;
+    }
+
+    dl {
+      display: flex;
+      flex-direction: column;
 
       @include mq(sm) {
-        padding: $sp-2 $sp-4;
-      }
-    }
-
-    >dt {
-      @extend %module-item;
-      border-top: $border $border-color;
-      font-weight: normal;
-      text-align: right;
-
-      +dd {
-        border-top: $border $border-color;
+        flex-direction: row;
       }
 
-      &:first-child {
-        border-top: none;
-
-        +dd {
-          border-top: none;
-        }
-      }
-
-      &::after {
-        content: ":";
-      }
-    }
-
-    >dd {
-      @extend %module-item;
-
-      +dd {
-        padding-top: 0;
-      }
-
-      ol, ul, dl {
+      dt {
+        flex: 0 0 62.5%;
+        font-weight: normal;
         margin: 0;
       }
 
-      dl {
-        display: flex;
-        flex-direction: column;
-
-        @include mq(sm) {
-          flex-direction: row;
-        }
-
-        dt {
-          flex: 0 0 62.5%;
-          font-weight: normal;
-          margin: 0;
-        }
-
-        dd {
-          margin: 0;
-        }
+      dd {
+        margin: 0;
       }
     }
   }
+}
 }

@@ -4,9 +4,9 @@ title: Schedule
 nav_order: 2
 ---
 
-{% for schedule in site.schedules %}
+<!-- {% for schedule in site.schedules %}
 {{ schedule }}
-{% endfor %}
+{% endfor %} -->
 
 # Calendar
 
