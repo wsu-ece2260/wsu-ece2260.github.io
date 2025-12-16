@@ -41,13 +41,7 @@ NOTE:  The lectures will follow this text \emph{very} closely.  I strongly advis
 
 # Assignments 
 
-You will have weekly homework assignments.  These assignments are based on selected problems from the textbook from various signal processing textbooks and old examinations.  You will be given Jupyter Notebooks to complete the assignments.  I strongly recommend that you work the problems out by hand (pencil and paper) and then complete the Notebook after you have worked the problem out.
-
-Homework will be distributed and collected via GitHub.  Homework will be graded based on correctness.  You will receive feedback each week based on your work after it is graded.  You are welcome to work together in groups to solve the problems, but the solutions you submit must be your own.  I strongly encourage you to fully understand your submission because the examinations, which are an individual effort, will be based on the homework problems.
-
-Each homework is associated with a particular exam (see schedule).  If your score on that exam exceeds the homework average for the homeworks associated with the exam, the exam grade will replace the homework grade.  The opposite is not true. If you score below the homework average on the exam, the homework grade will be used.
-
-Occasionally pop quizzes will be given in class and will count towards your homework grade.  These quizzes will be based on the material covered in the previous week.
+You will have weekly homework assignments based on the material covered in class.  These assignments will not be collected in class.  However, each week in lab or lecture, you will be given a short quiz based on one homework problem.  You will have 15 minutes to complete the quiz.  The quizzes will be closed book and closed notes.  The quizzes will be graded for correctness and completeness.  There are no makeup quizzes.  The lowest two quiz grades will be dropped.
 
 
 
