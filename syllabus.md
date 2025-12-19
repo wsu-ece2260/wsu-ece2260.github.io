@@ -39,9 +39,15 @@ Electric Circuits, 10th Edition, by James W. Nilsson and Susan Riedel, [any edit
 
 NOTE:  The lectures will follow this text \emph{very} closely.  I strongly advise you to read the book as we go through the course.  Assignments will not be based on problems on from the book, so if you can find a 1\textsuperscript{st} edition of the book, you can save some money.
 
+# Quizzes 
+
+There will be weekly quizzes based on the homework.  These will be given at the beginning of the lab or lecture session.  The quizzes will be closed book and closed notes.  There are no makeup quizzes.  The lowest two quiz grades will be dropped.
+
+
+
 # Assignments 
 
-You will have weekly homework assignments based on the material covered in class.  These assignments will not be collected in class.  However, each week in lab or lecture, you will be given a short quiz based on one homework problem.  You will have 15 minutes to complete the quiz.  The quizzes will be closed book and closed notes.  The quizzes will be graded for correctness and completeness.  There are no makeup quizzes.  The lowest two quiz grades will be dropped.
+You will have weekly homework assignments based on the material covered in class.  These will be collected immediately before the quiz at the beginning of the lab or lecture session.  You are encouraged to work together on the homework, but each student must turn in their own work.   Homework must be turned in on time.  Late homework will not be accepted.  Homework must be done in a neat and organized manner.  You must work on green engineering paper.  You will be graded on completion.  The lowest two homework grades will be dropped.
 
 
 
@@ -72,7 +78,8 @@ As shown below, grades are based on the weighted average of the exams, homework,
 
 | Item | Percentage |
 |------|------------|
-| homework | 15% |
+| homework | 5% |
+| quizzes | 10% |
 | labs | 20% |
 | midterms | 20% |
 | final | 25% |
