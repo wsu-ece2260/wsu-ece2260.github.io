@@ -17,7 +17,7 @@ title: Midterm 1 Material
     RL/RC natural response (7.1-7.2)
   </div>
   <div><span class="label label-purple">HW02</span></div>
-  <div><span class="label label-green">LAB01</span></div>
+  <div><span class="label label-green">LAB01: AC OPAMPS</span></div>
 </div>
 <div class="module-item">
   <div>1/19</div>
@@ -26,7 +26,7 @@ title: Midterm 1 Material
     1st order transients (7.4-7.6)
   </div>
   <div><span class="label label-purple">HW03</span></div>
-  <div><span class="label label-green">LAB02</span></div>
+  <div><span class="label label-green">LAB01: AC OPAMPS</span></div>
 </div>
 <div class="module-item">
   <div>1/26</div>
@@ -35,7 +35,7 @@ title: Midterm 1 Material
     Parallel RLC step response (8.2-8.3)
   </div>
   <div><span class="label label-purple">HW04</span></div>
-  <div><span class="label label-green">LAB03</span></div>
+  <div><span class="label label-green">LAB02: NATURAL RESPONSE</span></div>
 </div>
 <div class="module-item">
   <div>2/2</div>
@@ -44,5 +44,5 @@ title: Midterm 1 Material
     Laplace transform (12.1-12.4)
   </div>
   <div><span class="label label-purple">HW05</span></div>
-  <div><span class="label label-green">LAB04</span></div>
+  <div><span class="label label-green">LAB03: SEQUENTIAL SWITCHING</span></div>
 </div>

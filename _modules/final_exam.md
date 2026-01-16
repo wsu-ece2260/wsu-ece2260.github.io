@@ -9,7 +9,7 @@ title: Final Exam Material
     Fourier transform (17.1-17.3)
   </div>
   <div><span class="label label-purple">HW10</span></div>
-  <div><span class="label label-green">LAB09</span></div>
+  <div><span class="label label-green">LAB0X</span></div>
 </div>
 <div class="module-item">
   <div>3/23</div>
@@ -18,7 +18,7 @@ title: Final Exam Material
     Properties of the Fourier transform (17.5-17.8)<br><span class="label label-red">mt02</span>
   </div>
   <div><span class="label label-purple">HW11</span></div>
-  <div><span class="label label-green">LAB10</span></div>
+  <div><span class="label label-green">LAB0X</span></div>
 </div>
 <div class="module-item">
   <div>3/30</div>
@@ -27,7 +27,7 @@ title: Final Exam Material
     2nd order filters (14.4-14.5)
   </div>
   <div><span class="label label-purple">HW12</span></div>
-  <div><span class="label label-green">LAB11</span></div>
+  <div><span class="label label-green">LAB0X</span></div>
 </div>
 <div class="module-item">
   <div>4/6</div>
@@ -36,7 +36,7 @@ title: Final Exam Material
     Active filters II (15.3-15.4)
   </div>
   <div><span class="label label-purple">HW13</span></div>
-  <div><span class="label label-green">LAB12</span></div>
+  <div><span class="label label-green">LAB0X</span></div>
 </div>
 <div class="module-item">
   <div>4/13</div>

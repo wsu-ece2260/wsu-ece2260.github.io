@@ -49,6 +49,17 @@ Jupyter Notebooks are a powerful tool for data analysis, visualization, and shar
 6.  Save your work frequently to avoid data loss.
 7.  Once you have completed the assignment, make sure to save and close the notebook.
 8.  Commit and push your changes to the repository to submit your work.
+    1. Most labs will have data files that you will need to generate in LTSpice and with the oscilloscopes.  Make sure you add and commit these files as well.  For example:
+        ```bash
+        git add notebook.ipynb data.csv data.txt
+        git commit -m "Completed Lab 1"
+        git push
+        ```
+    Alternatively, if you feel comfortable using a GUI tool, you can just drag and drop into the GitHub using the web interface.
+    2. You can check that your files have been pushed to GitHub by navigating to the repository on GitHub and verifying that your changes are present.  I also added a checker to GitHub Actions that will let you know if your notebook was submitted correctly.  There will be a small green checkmark indicating success next to the commit message above the files.  If there are any issues, you will see a red X instead of a green checkmark.  You can see this in the image below:
+        ![GitHub Actions Checker](../assets/images/github.png)  
+    This checker will let you know if your notebook was submitted correctly.  It does not run the autograder, so passing this check does not guarantee you will receive full credit.  It only verifies that your notebook was submitted correctly.
+
 
 ## Common issues
 
