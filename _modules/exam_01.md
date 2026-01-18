@@ -31,7 +31,7 @@ title: Midterm 1 Material
 <div class="module-item">
   <div>1/26</div>
   <div>
-    Parallel RLC natural responses<br>
+    Parallel RLC natural responses (8.1)<br>
     Parallel RLC step response (8.2-8.3)
   </div>
   <div><span class="label label-purple">HW04</span></div>
