@@ -9,7 +9,7 @@ title: Midterm 2 Material
     Inverse Laplace transform (12.7-12.9)
   </div>
   <div><span class="label label-purple">HW06</span></div>
-  <div><span class="label label-green">LAB0X</span></div>
+  <div><span class="label label-green">LAB04: PARALLEL RLC</span></div>
 </div>
 <div class="module-item">
   <div>2/16</div>
@@ -18,7 +18,7 @@ title: Midterm 2 Material
     s-domain (13.1-13.3)<br><span class="label label-red">mt01</span>
   </div>
   <div><span class="label label-purple">HW07</span></div>
-  <div><span class="label label-green">LAB0X</span></div>
+  <div><span class="label label-green">LAB05: SERIES RLC</span></div>
 </div>
 <div class="module-item">
   <div>2/23</div>
