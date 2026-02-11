@@ -1,8 +1,9 @@
 ---
 layout: page
-title: GitHub SSH Keygen
-parent: Course Procedures
+title: SSH Keys
+parent: Lab Procedures
 nav_order: 1
+math: mathjax3
 ---
 
 # How to Use GitHub SSH Keys

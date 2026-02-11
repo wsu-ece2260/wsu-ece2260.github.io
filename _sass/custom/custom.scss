@@ -57,3 +57,25 @@ summary {
 .site-nav .nav-list .nav-list-item a {
   font-size: 18px;
 }
+
+// Override sidebar width
+@media (min-width: 50rem) {
+  .side-bar {
+    width: 19rem;
+  }
+
+  .side-bar+.main {
+    margin-left: 19rem;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: calc((100% - 66.5rem) / 2 + 20rem);
+    min-width: 20rem;
+  }
+
+  .side-bar+.main {
+    margin-left: Max(20rem, calc((100% - 66.5rem) / 2 + 20rem));
+  }
+}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GitHub Classroom
-parent: Course Procedures
+parent: Lab Procedures
 nav_order: 3
 ---
 

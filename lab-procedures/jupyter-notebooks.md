@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jupyter Notebooks
-parent: Course Procedures
+parent: Lab Procedures
 nav_order: 2
 math: mathjax3
 ---

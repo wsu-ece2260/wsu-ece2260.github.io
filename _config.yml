@@ -36,7 +36,11 @@ aux_links:
 footer_content:
 
 # Math settings
+# math: mathjax
 just_the_docs_mathjax: true
+
+# kramdown:
+#   math_engine: null
 
 # Collections for website data
 collections:

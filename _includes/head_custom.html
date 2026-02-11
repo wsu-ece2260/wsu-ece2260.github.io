@@ -4,6 +4,13 @@
 <meta http-equiv="Expires" content="0" />
 {% endif %}
 
+<!-- {% assign math = page.math | default: layout.math | default: site.math %}
+
+{% case math %}
+{% when "mathjax" %}
+{% include mathjax.html %}
+{% endcase %} -->
+
 {% case page.math %}
 
 {% when "mathjax3" %}
@@ -11,6 +18,8 @@
 <script>
     MathJax = {
         tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
             tags: 'ams',
             packages: { '[+]': ['textmacros'] },
         },
@@ -19,7 +28,6 @@
         }
     };
 </script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
