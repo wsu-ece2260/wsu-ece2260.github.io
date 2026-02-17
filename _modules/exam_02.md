@@ -27,7 +27,7 @@ title: Midterm 2 Material
     Convolution and impulse functions I (13.6-13.8)
   </div>
   <div><span class="label label-purple">HW08</span></div>
-  <div><span class="label label-green">LAB0X</span></div>
+  <div><span class="label label-green">LAB06: LAPLACE TRANSFORM</span></div>
 </div>
 <div class="module-item">
   <div>3/9</div>
