@@ -36,5 +36,5 @@ title: Midterm 2 Material
     Fourier series (16.1-16.3)
   </div>
   <div><span class="label label-purple">HW09</span></div>
-  <div><span class="label label-green">LAB0X</span></div>
+  <div><span class="label label-green">LAB07: S-DOMAIN</span></div>
 </div>
