@@ -9,7 +9,7 @@ title: Final Exam Material
     Fourier transform (17.1-17.3)
   </div>
   <div><span class="label label-purple">HW10</span></div>
-  <div><span class="label label-green">LAB0X</span></div>
+  <div><span class="label label-green">LAB08: CONVOLUTION</span></div>
 </div>
 <div class="module-item">
   <div>3/23</div>
