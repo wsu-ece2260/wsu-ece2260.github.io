@@ -18,7 +18,7 @@ title: Final Exam Material
     Properties of the Fourier transform (17.5-17.8)<br><span class="label label-red">mt02</span>
   </div>
   <div><span class="label label-purple">HW11</span></div>
-  <div><span class="label label-green">LAB0X</span></div>
+  <div><span class="label label-green">LAB09: RECTIFIER</span></div>
 </div>
 <div class="module-item">
   <div>3/30</div>
