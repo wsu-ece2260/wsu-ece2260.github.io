@@ -59,10 +59,6 @@ Now, let's visualize the output of the system.  Make a plot from $-T$ to $T$ of 
 
 We see in this plot that it takes fewer harmonics to converge to the output signal than it did to converge to the input signal.  Please explain why this is the case in the markdown cell below.
 
-### BEGIN SOLUTION
-The circuit acts as a bandpass filter, which filters out the higher frequency components of the input signal.  As a result, the output signal is smoother and has fewer high-frequency components than the input signal.  
-### END SOLUTION
-
 ## SPICE simulation
 
 Build this circuit in SPICE.  Generate the proper input using the `PULSE` source, but make sure that you adjust the timing parameters to match the period, duty cycle, and phase of the input signal we have been working with.  Simulate the circuit for around 500 μs.  When you look at the output plot of the simulation, you will notice that it takes a while for the output to reach steady-state.  We are interested in the steady-state response, so you can ignore the transient response at the beginning of the simulation.  
