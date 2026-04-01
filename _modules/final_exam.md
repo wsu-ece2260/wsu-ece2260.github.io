@@ -27,7 +27,7 @@ title: Final Exam Material
     2nd order filters (14.4-14.5)
   </div>
   <div><span class="label label-purple">HW12</span></div>
-  <div><span class="label label-green">LAB0X</span></div>
+  <div><span class="label label-green">LAB10: COMPLEX FOURIER SERIES</span></div>
 </div>
 <div class="module-item">
   <div>4/6</div>
