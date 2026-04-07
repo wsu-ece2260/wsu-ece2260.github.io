@@ -33,10 +33,10 @@ title: Final Exam Material
   <div>4/6</div>
   <div>
     Active filters I (15.1-15.2)<br>
-    Active filters II (15.3-15.4)
+    Review for Final Exam
   </div>
   <div><span class="label label-purple">HW13</span></div>
-  <div><span class="label label-green">LAB0X</span></div>
+  <div><span class="label label-green">LAB11: FILTER DESIGN</span></div>
 </div>
 <div class="module-item">
   <div>4/13</div>
